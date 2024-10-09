@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "remove-it",
+  "description": "A browser extension that allow you to remove any element from a webpage",
+  "version": "1.0",
+  "action": {
+    "default_icon": "remove.png",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "remove.png",
+    "32": "remove.png",
+    "48": "remove.png",
+    "128": "remove.png"
+  },
+  "content_scripts": [
+    {
+      "js": ["content.js"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
