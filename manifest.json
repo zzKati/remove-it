@@ -1,5 +1,5 @@
 {
-  "manifest_version": 1,
+  "manifest_version": 3,
   "name": "remove-it",
   "description": "A browser extension that allow you to remove any element from a webpage",
   "version": 1,
