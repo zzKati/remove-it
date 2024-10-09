@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "remove-it",
   "description": "A browser extension that allow you to remove any element from a webpage",
-  "version": 1,
+  "version": "1.0",
   "action": {
     "default_icon": "remove.svg",
     "default_popup": "popup.html"
