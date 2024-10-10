@@ -3,10 +3,11 @@
     "chrome-types": "^0.1.307"
   },
   "scripts": {
-    "dev": "webpack --mode=development --watch",
+    "dev": "webpack --mode=production --watch",
     "build": "webpack --mode=production"
   },
   "devDependencies": {
+    "@types/chrome": "^0.0.277",
     "ts-loader": "^9.5.1",
     "typescript": "^5.6.3",
     "webpack": "^5.95.0",

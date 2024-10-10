@@ -4,9 +4,45 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <style>
+    .container{
+      width: 150px;
+      height: 100px;
+      background-color: 15px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .input{
+      /* box-sizing: border-box; */
+      width: 80%;
+      height: 30px;
+      background-color: rgba(0,0,0,0.03);
+      border-radius: 10px;
+      display: flex;
+      justify-self: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .input:hover{
+      background-color: rgba(0,0,0,0.05);
+    }
+
+    .on-input{
+      background-color: rgba(0,0,0,0.05);
+    }
+
+  </style>
 </head>
 <body>
-  <h1>hello world</h1>
+  <div class="container">
+    <h3>设置快捷键</h3>
+    <div type="text" class="input" ></div>
+  </div>
   <script src="./popup.js" ></script>
 </body>
 </html> 

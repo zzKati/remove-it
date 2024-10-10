@@ -1,1 +1,1 @@
-(()=>{"use strict";console.log("test")})();
+(()=>{"use strict";var t=document.querySelector(".input");t.textContent="Options";var e,n=!1;function o(){n=!1,t.classList.remove("on-input"),e!==t.textContent&&(t.textContent=e,chrome.storage.sync.set({key:e}))}t.addEventListener("click",(function(){n?o():(n=!0,t.classList.add("on-input"),t.textContent="请按键盘任意键")})),document.addEventListener("click",(function(e){e.target!==t&&o()})),document.addEventListener("keydown",(function(t){n&&(e=t.key,o())}))})();

@@ -8,8 +8,8 @@
     "default_popup": "popup.html"
   },
   "icons": {
-    "16": "remove.png",
     "32": "remove.png",
+    "16": "remove.png",
     "48": "remove.png",
     "128": "remove.png"
   },
@@ -18,5 +18,10 @@
       "js": ["content.js"],
       "matches": ["<all_urls>"]
     }
-  ]
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "permissions": ["activeTab"]
 }
