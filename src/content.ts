@@ -48,9 +48,9 @@ document.addEventListener("keyup", event => {
 })
 
 document.addEventListener("click", event => {
-  event.preventDefault()
   if (highlightedElement && isRemoveModal) {
     if (event.target === highlightedElement) {
+      event.preventDefault()
       const target = event.target as HTMLElement
       target.style.transition = "all 0.5s"
       target.offsetHeight
